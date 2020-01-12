@@ -6,8 +6,8 @@
 		"simple-statistics": "^7.0.2"
 	},
 	"devDependencies": {
-		"liferay-npm-bundler": "^2.8.0",
-		"liferay-npm-build-support": "^2.8.0",
+		"liferay-npm-bundler": "^2.17.0",
+		"liferay-npm-build-support": "^2.17.0",
 		"copy-webpack-plugin": "4.6.0",
 		"webpack": "4.29.6",
 		"webpack-cli": "3.3.0",

@@ -7,7 +7,7 @@ import actions from 'redux-store/actions';
 import BodyDataLoader from './BodyDataLoader';
 
 const AppComponent = ({configuration}) => {
-	const initialCsv = configuration.portletInstance.initialCsv.replace(
+	const initialCsv = (configuration.portletInstance.initialCsv || '').replace(
 		/\|/g,
 		'\n'
 	);

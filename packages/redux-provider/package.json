@@ -8,8 +8,8 @@
 		"redux-actions": "2.6.5"
 	},
 	"devDependencies": {
-		"liferay-npm-bundler": "^2.8.0",
-		"liferay-npm-build-support": "^2.8.0"
+		"liferay-npm-bundler": "^2.17.0",
+		"liferay-npm-build-support": "^2.17.0"
 	},
 	"scripts": {
 		"build": "npm run copy-assets && liferay-npm-bundler",

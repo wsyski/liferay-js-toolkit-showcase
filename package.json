@@ -6,7 +6,7 @@
 		"eslint-config-liferay": "^3.0.0",
 		"eslint-plugin-react": "^7.13.0",
 		"lerna": "^3.14.1",
-		"liferay-npm-imports-checker": "^2.8.0",
+		"liferay-npm-imports-checker": "^2.17.0",
 		"prettier": "1.16.4"
 	},
 	"scripts": {

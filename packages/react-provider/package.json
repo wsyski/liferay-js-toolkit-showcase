@@ -10,8 +10,8 @@
 		"react-jsx-highcharts": "3.5.0"
 	},
 	"devDependencies": {
-		"liferay-npm-bundler": "^2.8.0",
-		"liferay-npm-build-support": "^2.8.0"
+		"liferay-npm-bundler": "^2.17.0",
+		"liferay-npm-build-support": "^2.17.0"
 	},
 	"scripts": {
 		"build": "npm run copy-assets && liferay-npm-bundler",
