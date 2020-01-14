@@ -3,7 +3,8 @@
 	"version": "1.0.0",
 	"description": "Polyfills Provider",
 	"dependencies": {
-		"core-js": "~3.4.1",
+		"core-js": "~2.6.11",
+		"tslib": "^1.10.0",
 		"zone.js": "~0.9.1"
 	},
 	"devDependencies": {
