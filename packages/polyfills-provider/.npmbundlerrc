@@ -1,0 +1,12 @@
+{
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+			"js-extender": false,
+			"web-context": "/polyfills-provider"
+		}		
+	},
+	"dump-report": true,
+    "max-parallel-files": 128,
+    "verbose": true
+}

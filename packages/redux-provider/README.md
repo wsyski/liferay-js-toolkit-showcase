@@ -1,3 +1,0 @@
-# redux-provider
-
-Redux Provider

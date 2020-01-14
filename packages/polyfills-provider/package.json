@@ -1,13 +1,10 @@
 {
-	"name": "react-provider",
+	"name": "polyfills-provider",
 	"version": "1.0.0",
-	"description": "React Provider",
+	"description": "Polyfills Provider",
 	"dependencies": {
-		"highcharts": "7.1.1",
-		"prop-types": "15.6.2",
-		"react": "16.8.6",
-		"react-dom": "16.8.6",
-		"react-jsx-highcharts": "3.5.0"
+		"core-js": "~3.4.1",
+		"zone.js": "~0.9.1"
 	},
 	"devDependencies": {
 		"liferay-npm-bundler": "^2.17.0",

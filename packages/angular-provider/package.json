@@ -1,0 +1,24 @@
+{
+	"name": "angular-provider",
+	"version": "1.0.0",
+	"description": "Angular Provider",
+	"dependencies": {
+		"@angular/animations": "~8.2.14",
+		"@angular/common": "~8.2.14",
+		"@angular/compiler": "~8.2.14",
+		"@angular/core": "~8.2.14",
+		"@angular/forms": "~8.2.14",
+		"@angular/platform-browser": "~8.2.14",
+		"@angular/platform-browser-dynamic": "~8.2.14",
+		"@angular/router": "~8.2.14"
+	},
+	"devDependencies": {
+		"liferay-npm-bundler": "^2.17.0",
+		"liferay-npm-build-support": "^2.17.0"
+	},
+	"scripts": {
+		"build": "npm run copy-assets && liferay-npm-bundler",
+		"copy-assets": "lnbs-copy-assets",
+		"deploy": "npm run build && lnbs-deploy"
+	}
+}

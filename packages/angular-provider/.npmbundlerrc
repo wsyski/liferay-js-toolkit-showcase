@@ -1,0 +1,21 @@
+{
+  "config": {
+    "imports": {
+      "polyfills-provider": {
+        "core-js": "~3.4.1",
+        "zone.js": "~0.9.1"
+      },
+      "rxjs-provider": {
+        "rxjs": "~6.5.3"
+      }
+    }
+  },
+  "create-jar": {
+    "output-dir": "dist",
+    "features": {
+      "js-extender": false,
+      "web-context": "/angular-provider"
+    }
+  },
+  "dump-report": false
+}

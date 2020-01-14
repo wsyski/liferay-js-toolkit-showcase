@@ -1,11 +1,9 @@
 {
-	"name": "redux-provider",
+	"name": "rxjs-provider",
 	"version": "1.0.0",
-	"description": "Redux Provider",
+	"description": "Rxjs Provider",
 	"dependencies": {
-		"react-redux": "5.1.1",
-		"redux": "4.0.1",
-		"redux-actions": "2.6.5"
+		"rxjs": "~6.5.3"
 	},
 	"devDependencies": {
 		"liferay-npm-bundler": "^2.17.0",
