@@ -1,11 +1,4 @@
 {
-	"config": {
-		"imports": {
-			"frontend-js-metal-web": {
-				"core-js": ">=2.6.5"
-			}
-		}
-	},
 	"create-jar": {
 		"output-dir": "dist",
 		"features": {

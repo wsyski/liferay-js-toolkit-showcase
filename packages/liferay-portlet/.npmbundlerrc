@@ -1,40 +1,38 @@
 {
-	"config": {
-		"imports": {
-			"imports": {
-				"frontend-js-metal-web": {
-					"core-js": ">=2.6.5"
-				}
-			},
-			"polyfills-provider": {
-				"tslib": "^1.10.0",
-				"zone.js": "~0.9.1"
-			},
-			"rxjs-provider": {
-				"rxjs": "~6.5.3"
-			},
-			"angular-provider": {
-				"@angular/animations": "~8.2.14",
-				"@angular/common": "~8.2.14",
-				"@angular/compiler": "~8.2.14",
-				"@angular/core": "~8.2.14",
-				"@angular/forms": "~8.2.14",
-				"@angular/platform-browser": "~8.2.14",
-				"@angular/platform-browser-dynamic": "~8.2.14",
-				"@angular/router": "~8.2.14"
-			}
-		}
-	},
-	"create-jar": {
-		"output-dir": "dist",
-		"features": {
-			"js-extender": true,
-			"web-context": "/liferay-portlet",
-			"localization": "features/localization/Language",
-			"configuration": "features/configuration.json"
-		}
-	},
-	"dump-report": true,
-    "max-parallel-files": 128,
-    "verbose": true
+  "config": {
+    "imports": {
+      "frontend-js-metal-web": {
+        "core-js": ">=2.6.5"
+      },
+      "polyfills-provider": {
+        "tslib": "^1.10.0",
+        "zone.js": "~0.9.1"
+      },
+      "rxjs-provider": {
+        "rxjs": "~6.5.3"
+      },
+      "angular-provider": {
+        "@angular/animations": "~8.2.14",
+        "@angular/common": "~8.2.14",
+        "@angular/compiler": "~8.2.14",
+        "@angular/core": "~8.2.14",
+        "@angular/forms": "~8.2.14",
+        "@angular/platform-browser": "~8.2.14",
+        "@angular/platform-browser-dynamic": "~8.2.14",
+        "@angular/router": "~8.2.14"
+      }
+    }
+  },
+  "create-jar": {
+    "output-dir": "dist",
+    "features": {
+      "js-extender": true,
+      "web-context": "/liferay-portlet",
+      "localization": "features/localization/Language",
+      "configuration": "features/configuration.json"
+    }
+  },
+  "dump-report": true,
+  "max-parallel-files": 128,
+  "verbose": true
 }
