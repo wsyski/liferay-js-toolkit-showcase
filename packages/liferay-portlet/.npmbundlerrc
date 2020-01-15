@@ -1,8 +1,12 @@
 {
 	"config": {
 		"imports": {
+			"imports": {
+				"frontend-js-metal-web": {
+					"core-js": ">=2.6.5"
+				}
+			},
 			"polyfills-provider": {
-				"core-js": "~2.6.11",
 				"tslib": "^1.10.0",
 				"zone.js": "~0.9.1"
 			},
