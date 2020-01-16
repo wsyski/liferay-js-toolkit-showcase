@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Rxjs Provider",
 	"dependencies": {
-		"rxjs": "~6.5.3"
+		"rxjs": "~6.5.4"
 	},
 	"devDependencies": {
 		"liferay-npm-bundler": "^2.17.0",
