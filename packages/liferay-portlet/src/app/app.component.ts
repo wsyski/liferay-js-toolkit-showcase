@@ -1,19 +1,21 @@
-import { Component } from '@angular/core';
+import {Component, Inject} from '@angular/core';
 
 import LiferayParams from '../types/LiferayParams'
+import {LiferayParamsProvider} from './liferay-params.provider';
 
 declare const Liferay: any;
 
 @Component({
 	templateUrl: 
-		Liferay.ThemeDisplay.getPathContext() + 
+		// Liferay.ThemeDisplay.getPathContext() +
 		'/o/liferay-portlet/app/app.component.html'
 })
 export class AppComponent {
 	params: LiferayParams;
 	labels: any;
 
-	constructor() {
+	constructor(@Inject(LiferayParamsProvider) private liferayParamsProvider: LiferayParamsProvider) {
+		this.params = liferayParamsProvider.instanceOf();
 		this.labels = {        
 			
 			configuration: Liferay.Language.get('configuration'),

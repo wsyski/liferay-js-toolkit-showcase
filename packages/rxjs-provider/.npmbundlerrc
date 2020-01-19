@@ -2,7 +2,6 @@
 	"config": {
 		"imports": {
 			"polyfills-provider": {
-				"core-js": "~2.6.11",
 				"tslib": "^1.10.0"
 			}
 		}

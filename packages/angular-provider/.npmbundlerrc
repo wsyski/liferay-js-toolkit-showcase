@@ -2,9 +2,9 @@
   "config": {
     "imports": {
       "polyfills-provider": {
-        "core-js": "~2.6.11",
-        "tslib": "^1.10.0",
-        "zone.js": "~0.9.1"
+        "reflect-metadata": "~1.0.0",
+        "tslib": "~1.10.0",
+        "zone.js": "~0.10.2"
       },
       "rxjs-provider": {
         "rxjs": "~6.5.4"

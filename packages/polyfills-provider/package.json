@@ -3,17 +3,19 @@
 	"version": "1.0.0",
 	"description": "Polyfills Provider",
 	"dependencies": {
-		"core-js": "~2.6.11",
-		"tslib": "^1.10.0",
-		"zone.js": "~0.9.1"
+		"tslib": "~1.10.0",
+		"zone.js": "~0.10.2"
 	},
 	"devDependencies": {
+		"core-js": "~3.6.4",
+		"core-js-builder": "~3.6.4",
 		"liferay-npm-bundler": "^2.17.0",
 		"liferay-npm-build-support": "^2.17.0"
 	},
 	"scripts": {
-		"build": "npm run copy-assets && liferay-npm-bundler",
-		"copy-assets": "lnbs-copy-assets",
+		"build:core-js": "node core-js-reflect-metadata.js",
+		"build": "npm run build:core-js && tsc && npm run copy-assets && liferay-npm-bundler",
+		"copy-assets": "lnbs-copy-assets && cp src/reflect-metadata.js build/reflect-metadata.js",
 		"deploy": "npm run build && lnbs-deploy"
 	}
 }
