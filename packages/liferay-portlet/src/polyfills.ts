@@ -1,3 +1,3 @@
 // Import needed polyfills for the application
-import 'reflect-metadata';
+import 'polyfills-provider/reflect-metadata';
 import 'zone.js/dist/zone';
