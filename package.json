@@ -1,5 +1,6 @@
 {
 	"name": "liferay-js-toolkit-showcase",
+	"version": "1.0.0",
 	"private": true,
 	"devDependencies": {
 		"lerna": "^3.14.1",
