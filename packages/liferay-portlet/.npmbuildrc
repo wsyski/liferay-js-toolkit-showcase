@@ -1,18 +1,18 @@
 {
-	"translatorTextKey": "",
-	"supportedLocales": [],
-	"liferayDir": "/opt/liferay",
-	"webpack": {
-		"rules": [
-			{
-				"test": "src\\/.*\\.ts$",
-				"use": "ts-loader"
-			}
-		],
-		"extensions": [
-			".ts",
-			".js"
-		],
-		"mainModule": "index.ts"
-	}
+  "translatorTextKey": "",
+  "supportedLocales": [],
+  "liferayDir": "/opt/liferay",
+  "webpack": {
+    "rules": [
+      {
+        "test": "src\\/.*\\.ts$",
+        "use": "ts-loader"
+      }
+    ],
+    "extensions": [
+      ".ts",
+      ".js"
+    ],
+    "mainModule": "index.ts"
+  }
 }
