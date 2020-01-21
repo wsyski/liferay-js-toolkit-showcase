@@ -1,4 +1,18 @@
 {
+  "exclude": {
+    "@angular/animations": true,
+    "@angular/common": true,
+    "@angular/compiler": true,
+    "@angular/core": true,
+    "@angular/forms": true,
+    "@angular/platform-browser": true,
+    "@angular/platform-browser-dynamic": true,
+    "@angular/router": true,
+    "core-js": true,
+    "rxjs": true,
+    "tslib": true,
+    "zone.js": true
+  },
   "config": {
     "imports": {
       "polyfills-provider": {
