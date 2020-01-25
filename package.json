@@ -10,6 +10,7 @@
 	"scripts": {
 		"build": "lerna run build",
 		"deploy": "lerna run deploy",
+		"test": "lerna run test",
 		"format": "prettier --write '.*.js' 'packages/*/src/**/*.js'",
 		"lerna": "npm install && lerna bootstrap",
 		"lint-imports": "liferay-npm-imports-checker"
