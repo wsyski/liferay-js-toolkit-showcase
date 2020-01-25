@@ -1,6 +1,6 @@
 {
 	"name": "liferay-portlet",
-	"version": "5.0.0",
+	"version": "1.0.0",
 	"description": "Liferay Portlet",
 	"dependencies": {
 		"@angular/animations": "~9.0.0-rc.10",
@@ -27,6 +27,7 @@
 		"copy-webpack-plugin": "~4.6.0",
 		"core-js": "~3.6.4",
 		"core-js-builder": "~3.6.4",
+		"gulp": "~3.9.1",
 		"gulp-dart-sass": "^0.9.1",
 		"jasmine-core": "~3.5.0",
 		"jasmine-spec-reporter": "~4.2.1",
