@@ -1,7 +1,6 @@
 'use strict';
 
 var gulp = require('gulp');
-var arenaBuildUtils = require('../../../../arena-build-utils');
 var sass = require('gulp-dart-sass');
 
 gulp.task('scss', function () {
@@ -12,9 +11,4 @@ gulp.task('scss', function () {
 
 gulp.task('scss:watch', function () {
 	gulp.watch('./assets/css/**/*.scss', ['sass']);
-});
-
-gulp.task('publish', function (cb) {
-	arenaBuildUtils.publish();
-	cb();
 });
