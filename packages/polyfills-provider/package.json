@@ -9,8 +9,8 @@
 	"devDependencies": {
 		"core-js": "~3.6.4",
 		"core-js-builder": "~3.6.4",
-		"liferay-npm-bundler": "^2.17.0",
-		"liferay-npm-build-support": "^2.17.0"
+		"liferay-npm-bundler": "^2.17.1",
+		"liferay-npm-build-support": "^2.17.1"
 	},
 	"scripts": {
 		"build:core-js": "node core-js-reflect-metadata.js",

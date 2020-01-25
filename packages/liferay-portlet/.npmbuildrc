@@ -1,6 +1,21 @@
 {
   "translatorTextKey": "",
-  "supportedLocales": [],
+  "supportedLocales": [
+    "en_US",
+    "en_GB",
+    "sv_SE",
+    "da_DK",
+    "de_DE",
+    "fi_FI",
+    "pl_PL",
+    "fo_FO",
+    "kl_GL",
+    "nb_NO",
+    "se_FI",
+    "ru_FI",
+    "cy_GB",
+    "fr_FR"
+  ],
   "liferayDir": "/opt/liferay",
   "webpack": {
     "rules": [
